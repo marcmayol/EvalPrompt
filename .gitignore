@@ -1,36 +1,41 @@
-.idea/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Environment
 .env
-.env.local
-
-.vscode
-._pycache_
-# python
-*.py[cod]
-_pycache_/
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-# excludes
-!.git
-!.git_keep
-!.gitkeep
-
-# Environments
-.env*
-.venv
-env/
+.venv/
 venv/
 ENV/
-env.bak/
-venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+pip-wheel-metadata/
+*.whl
+
+# Test and coverage
+htmlcov/
+.coverage
+.coverage.*
+cache/
+pytest_cache/
+
+# Project specific
+assets/
+tests/
+docs/

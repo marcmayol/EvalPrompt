@@ -1,0 +1,42 @@
+# Excluir imágenes, logos y otros recursos visuales
+exclude assets/*
+exclude *.png
+exclude *.jpg
+exclude *.jpeg
+exclude *.svg
+exclude *.gif
+
+# Excluir repositorio y control de versiones
+prune .git
+prune .gitignore
+prune .gitattributes
+
+# Excluir workflows y configuración de CI
+prune .github
+prune .github/workflows
+
+# Excluir carpetas de tests del paquete final
+prune tests
+prune test
+prune t4ests
+exclude tests/*
+recursive-exclude tests *
+
+# Excluir carpetas de IDEs
+prune .idea
+prune .vscode
+
+# Excluir documentación no necesaria en PyPI
+exclude *.md
+exclude CHANGELOG.md
+
+# Excluir archivos temporales o de herramientas
+exclude *.log
+exclude *.tmp
+exclude *.bak
+exclude *.ini
+exclude *.yaml
+exclude *.yml
+
+# Incluir únicamente el código fuente del proyecto
+recursive-include evalprompt *.py

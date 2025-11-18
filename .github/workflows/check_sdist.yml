@@ -1,0 +1,32 @@
+name: Verify SDist Cleanliness
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install build tools
+        run: |
+          pip install build
+
+      - name: Build sdist
+        run: |
+          python -m build --sdist
+
+      - name: Run SDist checker
+        run: |
+          python scripts/check_sdist.py
