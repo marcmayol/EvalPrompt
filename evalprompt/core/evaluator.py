@@ -1,3 +1,4 @@
+"""Core evaluator module for EvalPrompt."""
 from typing import List, Dict, Any
 
 from evalprompt.core.types import PromptDefinition, EvalExample, ModelOutput

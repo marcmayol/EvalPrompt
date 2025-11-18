@@ -1,3 +1,4 @@
+"""Base classes for judge components used to evaluate model generated outputs."""
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 

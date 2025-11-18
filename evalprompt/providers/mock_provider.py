@@ -1,3 +1,5 @@
+"""Mock provider used for deterministic testing in EvalPrompt."""
+
 class MockProvider:
     """Mock model provider used for testing the evaluation pipeline."""
 

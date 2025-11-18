@@ -1,3 +1,4 @@
+"""Exact match metric implementation for EvalPrompt."""
 from evalprompt.metrics.base import Metric
 from evalprompt.core.types import MetricResult
 

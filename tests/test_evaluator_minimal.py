@@ -1,3 +1,4 @@
+"""Tests for the minimal evaluation flow in EvalPrompt."""
 from evalprompt.core.evaluator import PromptEvaluator
 from evalprompt.core.types import PromptDefinition, EvalExample
 from evalprompt.providers.mock_provider import MockProvider

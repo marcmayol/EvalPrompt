@@ -1,3 +1,4 @@
+"""Base class for defining evaluation metrics in EvalPrompt."""
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 
