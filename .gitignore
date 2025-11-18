@@ -1,0 +1,37 @@
+.idea
+.idea/
+.env
+.env.local
+
+.vscode
+._pycache_
+# python
+*.py[cod]
+_pycache_/
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+# excludes
+!.git
+!.git_keep
+!.gitkeep
+
+# Environments
+.env*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
