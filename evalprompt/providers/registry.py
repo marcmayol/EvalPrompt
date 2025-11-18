@@ -1,3 +1,6 @@
+"""
+Registry and loader for model provider classes in EvalPrompt.
+"""
 from typing import Dict, Type
 
 from evalprompt.providers.base import ModelProvider

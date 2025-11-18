@@ -1,7 +1,11 @@
-"""Mock provider used for deterministic testing in EvalPrompt."""
+"""
+Mock provider used for deterministic testing in EvalPrompt.
+"""
 
 class MockProvider:
-    """Mock model provider used for testing the evaluation pipeline."""
+    """
+    Mock model provider used for testing the evaluation pipeline.
+    """
 
     def generate(self, inputs, config=None):
         """

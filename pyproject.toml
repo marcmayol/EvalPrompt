@@ -2,7 +2,9 @@
 disable = [
     "too-few-public-methods",
     "too-many-locals",
-    "unused-argument"
+    "unused-argument",
+    "too-many-arguments",
+    "too-many-positional-arguments"
 ]
 
 [tool.pylint.format]

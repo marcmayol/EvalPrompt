@@ -1,4 +1,6 @@
-"""Core data models used by the EvalPrompt evaluation pipeline."""
+"""
+Data classes used across the EvalPrompt evaluation pipeline.
+"""
 from dataclasses import dataclass, field
 from typing import Any, Dict, Optional
 
@@ -53,7 +55,8 @@ class ModelOutput:
 @dataclass
 class MetricResult:
     """
-    Represents the result of applying a metric to a prediction, including the metric name, its value, and optional details.
+    Represents the result of applying a metric to a prediction, including the metric name,
+    its value, and optional details.
     """
 
     metric_name: str

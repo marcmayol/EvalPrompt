@@ -1,4 +1,6 @@
-"""Base classes for judge components used to evaluate model generated outputs."""
+"""
+Base judge interfaces used to evaluate model outputs and compare prompts.
+"""
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 

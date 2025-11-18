@@ -1,10 +1,14 @@
-"""Tests for the minimal evaluation flow in EvalPrompt."""
+"""
+Tests for the minimal evaluation flow in EvalPrompt.
+"""
 from evalprompt.core.evaluator import PromptEvaluator
 from evalprompt.core.types import PromptDefinition, EvalExample
 from evalprompt.providers.mock_provider import MockProvider
 
 def test_minimal_evaluation_flow():
-    """Tests the evaluation pipeline using the real evaluator and exact match metric."""
+    """
+    Tests the evaluation pipeline using the real evaluator and exact match metric.
+    """
     provider = MockProvider()
 
     evaluator = PromptEvaluator(

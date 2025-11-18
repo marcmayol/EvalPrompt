@@ -1,3 +1,6 @@
+"""
+Metric registry used to store and retrieve metric classes.
+"""
 from typing import Dict, Type
 
 from evalprompt.metrics.base import Metric

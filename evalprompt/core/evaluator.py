@@ -1,9 +1,10 @@
-"""Core evaluator module for EvalPrompt."""
+"""
+Evaluator module for running prompts against a model provider.
+"""
 from typing import List, Dict, Any
 
 from evalprompt.core.types import PromptDefinition, EvalExample, ModelOutput
 from evalprompt.metrics.registry import metric_registry
-from evalprompt.core.types import MetricResult
 
 
 class PromptEvaluator:

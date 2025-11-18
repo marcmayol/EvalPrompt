@@ -1,3 +1,6 @@
+"""
+Deprecated mock provider module kept for transitional compatibility.
+"""
 from typing import List, Dict, Any, Optional
 
 from evalprompt.providers.base import ModelProvider

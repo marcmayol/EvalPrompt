@@ -1,3 +1,6 @@
+"""
+Core package for the EvalPrompt library.
+"""
 from evalprompt.core.types import (
     PromptDefinition,
     EvalExample,

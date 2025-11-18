@@ -1,4 +1,6 @@
-"""Evaluation configuration object for EvalPrompt."""
+"""
+Configuration classes for EvalPrompt evaluation settings.
+"""
 class EvaluationConfig:
     """Configuration object that defines how an evaluation should be executed."""
 
